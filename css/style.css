@@ -1,71 +1,77 @@
-header{
-    text-align: center;
- background-color: bisque
-
-}
-
-header h1{
-    margin: 10;
-}
-
-header img{
-    border-radius: 100px;
-    display: block;
-}
-
-header ul{
-    list-style-type:none;
+body,h2, p, ul {
     margin: 0;
-    padding: 0;
-}
-
-header li{
-    display:inline-block;
-    margin-right: 20px;
-}
-
-header a{
-     
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    padding: 5px;
 }
 
 body {
-    background-color: beige;
+    border-radius: 60px;
+    background-color: rgb(202, 166, 99);
+    font-family: 'Arial', sans-serif;
 }
 
-main{
+header {
+    background-color: rgb(48, 46, 42);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul,li{
+    display: inline;
+    margin-right: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
     padding: 20px;
 }
 
 article{
-    margin-bottom: 5%;
+    text-align: center;
+    padding: 20px;
 }
 
-h2{
-    color:rgb(91, 73, 48);
-}
-img{
-    width: 50%;
-    height: 100;
-}
-
-figcaption{
-    margin-top: 5px;
-    font-weight: bold;
+#AboutUs img{
+    border-radius: 50px;
 }
 
 section{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    color:rgb(32, 35, 37);
+    padding: 10px;
 }
 
-figure{
-    text-align: center;
+figure {
+    display: inline-block;
     margin: 20px;
+    text-align: center;
+}
 
+@media only screen and (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+#ContactUs {
+    text-align: center;
+    padding: 20px;
 }
 
 a[href="#top"]{
